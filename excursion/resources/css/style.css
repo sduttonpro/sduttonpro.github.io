@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  font-family: Verdana;
+}
+
+a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+}
+
+.middle p {
+  color: gray;
+  font-size: 21px;
+}
+
+.middle h1 {
+  font-weight: 300;
+  font-size: 42px;
+}
