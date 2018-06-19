@@ -1,0 +1,19 @@
+/*mobile interaction*/
+.main-1 .start:hover{
+  background-color: grey;
+  transition: all 1s ease;
+}
+.section-2 .card:hover{
+  background-color: grey;
+  transition: all 1s ease;
+}
+.section-3 .gallery-mobile div:hover{
+  transition: all 1s ease;
+  background-color: lightgrey;
+
+}
+/*desktop interactions*/
+.section-3 .gallery .item:hover {
+  width: 25%;
+  transition: all .5s ease;
+}

@@ -1,60 +1,271 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Colmar Academy</title>
+    <title>Colmar Academy | Welcome Students</title>
     <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/media.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/interact.css" rel="stylesheet" type="text/css">
     <link href="resources/css/style.css" rel="stylesheet" type="text/css">
   </head>
+
   <body>
+  <!-- Header Section -->
+  <header>
+    <nav class="desktop">
+      <a href="index.html">
+        <div class="logo">
+          <img src="resources/images/ic-logo.svg"/>
+          <div class="logo-type">
+            <span class="colmar raleway">colmar</span>
+            <span class="academy raleway">academy</span>
+          </div>
+        </div>
+      </a>
+      <div class="menu raleway">
+        <a href="#"><span>On campus</span></a>
+        <a href="#"><span>Online</span></a>
+        <a href="#"><span>For companies</span></a>
+        <a href="#"><span>Sign in</span></a>
+      </div>
+    </nav>
+    <nav class="mobile">
+      <a href="index.html"><img src="resources/images/ic-logo.svg"/></a>
+      <a href="#"><img src="resources/images/ic-on-campus.svg"></a>
+      <a href="#"><img src="resources/images/ic-online.svg"></a>
+      <a href="#"><img src="resources/images/ic-login.svg"></a>
+    </nav>
+  </header>
 
-    <!-- Header/Nav Section -->
-    <header>
+  <!-- Main Banner-->
+  <main>
+    <!-- Section 1-->
+    <section class="main-1">
+      <div class="img">
+        <img src="resources/images/banner.jpg"/>
+      </div>
+      <div class="info abel">
+        <h1>Learn something <br>new everyday</h1>
+        <h4>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h4>
+        <div class="start abel">
+          <a href="#">Start here</a>
+        </div>
+      </div>
+    </section>
 
-      <!--Desktop Version -->
+    <!-- Section 2 -->
+    <section>
+      <div class="section-2">
+      <div class="left abel-large">
+        <div class="img">
+          <img src="resources/images/information-main.jpg"/>
+        </div>
+        <div class="info">
+          <h1>It doesn't hurt to keep practicing</h1>
+          <p class="quote">
+            "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+            commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
+            sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+            tristique ligula"
+          </p>
+          <h6>Emanuel, Sr Strategist at Hiring.com</h6>
+        </div>
+      </div>
 
-      <nav class="desktop-nav">
-        <a href="index.html">
-          <div class="logo">
-            <img src="resources/images/ic-logo.svg">
-            <div class="logotype">
-              <span class="colmar">colmar</span>
-                <span class="academy">academy</span>
+      <div class="right abel">
+        <div class="card">
+          <div class="card-img">
+            <img src="resources/images/information-orientation.jpg"/>
+          </div>
+          <div class="card-info">
+            <h3>Orientation Date</h3>
+            <span>Tue 10/11 & Wed 10/12: 8am-3pm</span>
+            <div class="link">
+              <a href="#">Read more</a>
             </div>
           </div>
-        </a>
-        <div class="menu">
-          <a href="#">
-            <span>On campus</span>
-          </a>
-          <a href="#">
-            <span>Online</span>
-          </a>
-          <a href="#">
-            <span>For companies</span>
-          </a>
-          <a href="#">
-            <span>Sign in</span>
-          </a>
         </div>
-      </nav>
+      <div class="card">
+        <div class="card-img">
+          <img src="resources/images/information-campus.jpg"/>
+        </div>
+        <div class="card-info">
+          <h3>Orientation Date</h3>
+          <span>Find which campus is close by you</span>
+          <div class="link">
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">
+          <img src="resources/images/information-guest-lecture.jpg"/>
+        </div>
+        <div class="card-info">
+          <h3>Orientation Date</h3>
+          <span>Join a keynote with Oliver Sack about music
+          in medical treatment</span>
+          <div class="link">
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
 
-      <!-- Mobile Version -->
+    <section class="section-3">
+      <div class="heading abel">
+        <h1>Start learning</h1>
+      </div>
+      <div class="gallery abel">
+        <div class="item">
+          <div class="item-img">
+            <img src="resources/images/course-software.jpg"/>
+          </div>
+          <div class="item-info">
+            <h3>Software engineering</h3>
+            <span>COURSES</span>
+            <p>Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="resources/images/course-computer-art.jpg"/>
+          </div>
+          <div class="item-info">
+            <h3>Computer art</h3>
+            <span>COURSES</span>
+            <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects,
+              Computer Animation</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="resources/images/course-design.jpg"/>
+          </div>
+          <div class="item-info">
+            <h3>Design</h3>
+            <span>COURSES</span>
+            <p>User Experience Design, User Research, Visual Design</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="resources/images/course-data.jpg"/>
+          </div>
+          <div class="item-info">
+            <h3>Data</h3>
+            <span>COURSES</span>
+            <p>Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="resources/images/course-business.jpg"/>
+          </div>
+          <div class="item-info">
+            <h3>Business</h3>
+            <span>COURSES</span>
+            <p>Product Development, Business Development, Startup</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="resources/images/course-marketing.jpg"/>
+          </div>
+          <div class="item-info">
+            <h3>Marketing</h3>
+            <span>COURSES</span>
+            <p>Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-mobile abel-medium">
+          <div>
+            <a href="#">Software Engineering</a>
+          </div>
+          <div>
+            <a href="#">Computer art</a>
+          </div>
+          <div>
+            <a href="#">Design</a>
+          </div>
+          <div>
+            <a href="#">Data</a>
+          </div>
+          <div>
+            <a href="#">Business</a>
+          </div>
+          <div id="mobile-last">
+            <a href="#">Marketing</a>
+          </div>
+      </div>
+    </section>
 
-      <nav class="mobile-nav">
-        <a href="index.html">
-          <img src="resources/images/ic-logo.svg">
-        </a>
-        <a href="#">
-          <img src="resources/images/ic-on-campus.svg">
-        </a>
-        <a href="#">
-          <img src="resources/images/ic-online.svg">
-        </a>
-        <a href="#">
-          <img src="resources/images/ic-login.svg">
-        </a>
-      </nav>
-    </header>
+    <!-- Final Section -->
+    <section class="thesis">
+      <div class="section-2 abel">
+      <div class="left">
+        <div class="img">
+          <video muted controls>
+            <source src="resources/videos/thesis.mp4">
+          </video>
+        </div>
+        <div class="info">
+          <h1>Reimagine urban</h1>
+          <p class="quote">
+            "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+            commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
+            sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+            tristique ligula"
+          </p>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="card">
+          <div class="card-img">
+            <img src="resources/images/thesis-fisma.jpg"/>
+          </div>
+          <div class="card-info">
+            <h3>Fisma: Design and Prototype</h3>
+            <span>Designer showcase of new protoype product</span>
+          </div>
+        </div>
+      <div class="card">
+        <div class="card-img">
+          <img src="resources/images/thesis-now-and-then.jpg"/>
+        </div>
+        <div class="card-info">
+          <h3>Now and then</h3>
+          <span>Research study about New York</span>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-view">
+      <h1>Thesis exhibits</h1>
+      <video muted controls>
+        <source src="resources/videos/thesis.mp4">
+      </video>
+    </div>
+    </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <div class="footer abel">
+      <div class="copyright">
+        <span>&copy 2016 Colmar Academy. All rights reserved</span>
+      </div>
+      <div class="links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
 
   </body>
 </html>

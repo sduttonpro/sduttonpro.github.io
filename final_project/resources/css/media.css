@@ -1,0 +1,91 @@
+@media only screen and (max-width: 960px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+  }
+  .main-1 {
+    display: flex;
+    flex-flow: column;
+  }
+  .main-1 .start {
+    margin-bottom: 32px;
+  }
+  .section-2 .left {
+    display: none;
+  }
+  .section-2 .right {
+    margin-bottom: 32px;
+  }
+  .section-2 .right .card {
+    margin-bottom: 32px;
+    padding-top: 16px;
+  }
+  .thesis .section-2 .right {
+    display: none;
+  }
+  .thesis .mobile-view {
+    margin-top: 32px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .thesis .mobile-view video{
+    width: 100%;
+  }
+  .section-2 .right{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .section-2 .right .card {
+    display: flex;
+    flex-flow: column;
+  }
+  .section-3 .gallery {
+    display: none;
+  }
+  .gallery-mobile {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 32px;
+  }
+  .gallery-mobile div{
+    padding: 16px 16px;
+    margin-bottom: 8px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .footer .links{
+    display: none;
+  }
+  .main-1 .img {
+    width: 100%;
+  }
+
+}
+@media only screen and (min-width: 960px) {
+  .mobile{
+    display: none;
+  }
+  .section-3 .gallery-mobile{
+    display: none;
+  }
+  .thesis .mobile-view {
+    display: none;
+  }
+  .main-1 .img {
+    width: 65%;
+  }
+  .desktop .logo-type:hover .academy{
+    color: #F8D94F;
+    font-weight: bolder;
+    transition: all 1s ease;
+  }
+  .desktop .menu a:hover{
+    color: #F8D94F;
+    font-weight: bolder;
+    transition: all 1s ease;
+  }
+}
