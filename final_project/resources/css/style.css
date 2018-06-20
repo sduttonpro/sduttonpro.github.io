@@ -13,18 +13,18 @@ section{
   width: 100%;
 }
 .abel-large{
-  font-family: "Abel";
+  font-family: "Abel", sans-serif;
   font-size: 2rem;
 }
 .abel-large{
-  font-family: "Abel";
+  font-family: "Abel", sans-serif;
   font-size: 1.5rem;
 }
 .abel {
-  font-family: "Abel";
+  font-family: "Abel", sans-serif;
 }
 .raleway {
-  font-family: "Raleway";
+  font-family: "Raleway", serif;
 }
 h1{
   font-weight: 800;
